@@ -1,0 +1,20 @@
+name: CheatTrackerIP
+main: com.example.cheattracker.CheatTrackerIP
+version: 1.4
+api-version: 1.20
+commands:
+  playerip:
+    description: Show a player's IP address
+    usage: /playerip <player>
+    permission: cheattracker.ip
+  playtime:
+    description: Show how long a player has played
+    usage: /playtime [player]
+    permission: cheattracker.playtime
+permissions:
+  cheattracker.ip:
+    description: Allows viewing player IP addresses
+    default: op
+  cheattracker.playtime:
+    description: Allows viewing player total playtime
+    default: true
